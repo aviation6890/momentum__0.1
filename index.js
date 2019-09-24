@@ -1,3 +1,22 @@
+function sayHello(name , age) {
+   console.log("Hello!", name," you have ", age," years of age.");
+}
+
+sayHello("Nicolas", 15);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //1.create variable.
 //2.Initialize variable.
 //3.use variable.
@@ -43,6 +62,7 @@ console.log(dayOfWeek);
 */
 
 /*#1.10 */
+/*
 const dayOfWeek = ["Nicolas", "55", true,"Seoul"];
 
 const nicoInfo ={
@@ -67,3 +87,6 @@ console.log(nicoInfo);
 console.log(nicoInfo.gender);
 console.log(nicoInfo.gender = "Female");
 console.log(nicoInfo.gender);
+console.log(console);
+*/
+
