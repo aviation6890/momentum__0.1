@@ -1,9 +1,3 @@
-let a = 221;
-const b = a - 5;
-a = 4;
-
-console.log(a, b);
-
 //1.create variable.
 //2.Initialize variable.
 //3.use variable.
@@ -47,5 +41,29 @@ const fri ="fri";
 const dayOfWeek = ['mon','tue','Wed','Thu','Fri',"Sat","Sun"];
 console.log(dayOfWeek);
 */
-const dayOfWeek = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun", true];
-console.log(dayOfWeek);
+
+/*#1.10 */
+const dayOfWeek = ["Nicolas", "55", true,"Seoul"];
+
+const nicoInfo ={
+    name : "Nico",
+    age :  33,
+    gender : "Male",
+    isHandsome : true,
+    favMovies : ["Along the gods","LOTR","Oldboy"],
+    favFood : [
+        {
+            name:"Kimchi",
+            fatty:false
+        },
+        {
+            name:"Cheese burger",
+            fatty:true
+        }
+    ]
+};
+
+console.log(nicoInfo);
+console.log(nicoInfo.gender);
+console.log(nicoInfo.gender = "Female");
+console.log(nicoInfo.gender);
