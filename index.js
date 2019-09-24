@@ -33,3 +33,19 @@ const wat = 66;
 const wat = 55.5;
 
 */
+
+/*#1.9 Organizing Data with Arrays.
+const dayOfWeek = ""; //camel case.
+
+const monday = "mon";
+const the = "tue";
+const wed = "wed";
+const thu ="thu";
+const fri ="fri";
+---비효율적임 그래서 나온게 arrays
+
+const dayOfWeek = ['mon','tue','Wed','Thu','Fri',"Sat","Sun"];
+console.log(dayOfWeek);
+*/
+const dayOfWeek = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun", true];
+console.log(dayOfWeek);
