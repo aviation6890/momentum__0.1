@@ -100,3 +100,16 @@ sayHi 함수가 3초바다 한번씩 실행됨.
 페이지를 새로고침 하지 않아도 됨.
 
 2. ternary operator(삼항 연산자)
+
+---
+
+## #3.3 Saving the User Name part One
+
+1. querySelector는 찾는것의 **첫번째**것만 가져옴.
+2. querySelectorAll은 **모든것**을 가져옴.
+3. localStorage
+   작은 정보를 유저 컴퓨터에 저장.
+
+---
+
+## #3.4 Saving the User Name part Two
