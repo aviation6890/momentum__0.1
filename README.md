@@ -114,4 +114,8 @@ sayHi 함수가 3초바다 한번씩 실행됨.
 
 ## #3.4 Saving the User Name part Two
 
-input text save LocalStorage.
+1. input text save LocalStorage.
+
+---
+
+## #3.5 Making a To Do List part One
