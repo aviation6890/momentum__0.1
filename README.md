@@ -81,3 +81,22 @@ is better than classList.contains
    방법 : **setInterval**함수를 이용.
 
 ---
+
+## #3.2 Making a JS Clock part Two
+
+1. setInterval().
+
+   첫번째 인자는 함수.
+   두번째 인자를 실행 하고 싶은 시간.
+   ex)
+   function sayHello(
+   console.log("hi");
+   }
+
+setInterval(sayHi, 3000)
+
+결과 ::
+sayHi 함수가 3초바다 한번씩 실행됨.
+페이지를 새로고침 하지 않아도 됨.
+
+2. ternary operator(삼항 연산자)
