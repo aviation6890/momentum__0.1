@@ -10,12 +10,14 @@ js 파일은 body 아래에 둘것.
 배열은 값을 리스트로 표현하고
 객체는 값을 네이밍으로 표현.
 
-#1.10
+## #1.10
+
 DB에서 가져온 리스트 데이터 => Array
 
 ---
 
-2.1.1 More Function Fun
+## 2.1.1 More Function Fun
+
 using backtick(``)
 
 function sayHello(name, age) {
@@ -44,7 +46,8 @@ Hello Nicolas you are 15 years old
 
 ---
 
-#2.5 If, else, and, or
+## #2.5 If, else, and, or
+
 true && true = true;
 false && true = false;
 true && false = false;
@@ -59,7 +62,8 @@ false || false = false;
 
 ## #2.6 DOM - If else - Function practice
 
-#2.7 DOM
+## #2.7 DOM
+
 classList는 메서드를 가짐 mdn문서 참고할것..
 classList.add
 classList.remove
