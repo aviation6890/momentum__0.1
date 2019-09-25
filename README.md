@@ -16,7 +16,7 @@ DB에서 가져온 리스트 데이터 => Array
 
 ---
 
-## 2.1.1 More Function Fun
+## #2.1.1 More Function Fun
 
 using backtick(``)
 
@@ -72,3 +72,12 @@ contains(String)
 
 toggle(String[,focus])
 is better than classList.contains
+
+## #3.1 Making a JS Clock part One.
+
+1. 시계만들기.
+   const Date = new Date();
+   문제 : 계속 새로 고침 해야하는 문제.
+   방법 : **setInterval**함수를 이용.
+
+---
