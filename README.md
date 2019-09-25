@@ -13,6 +13,8 @@ js 파일은 body 아래에 둘것.
 #1.10
 DB에서 가져온 리스트 데이터 => Array
 
+---
+
 2.1.1 More Function Fun
 using backtick(``)
 
@@ -53,7 +55,9 @@ false || true = true;
 true || false = true;
 false || false = false;
 
-#2.6 DOM - If else - Function practice
+---
+
+## #2.6 DOM - If else - Function practice
 
 #2.7 DOM
 classList는 메서드를 가짐 mdn문서 참고할것..
