@@ -1,9 +1,9 @@
-const title = document.getElementById("title");
-title.innerHTML = "Hi From JS";
+const title = document.querySelector("#title");
 console.log(title);
-
-console.log(document);
-
+title.innerHTML = "Hi From JS";
+title.style.color = "red";
+document.title = "i own you now";
+console.dir(document);
 //1.create variable.
 //2.Initialize variable.
 /*#1.10 */
@@ -57,4 +57,23 @@ const div = calculator.div(5, 5);
 const multi = calculator.multi(4, 4);
 
 console.log(plus, div, multi);
+*/
+
+/*#2.2 JS DOM Functions */
+/* 
+const title = document.getElementById("title");
+title.innerHTML = "Hi From JS";
+console.log(title);
+
+console.log(document);
+*/
+
+/*#2.3 Modifying the DOM with JS */
+/*
+const title = document.querySelector("#title");
+console.log(title);
+title.innerHTML = "Hi From JS";
+title.style.color = "red";
+document.title = "i own you now";
+console.dir(document);
 */
