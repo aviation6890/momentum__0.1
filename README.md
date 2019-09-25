@@ -39,3 +39,18 @@ console.log(greetNicolas);
 
 result ::
 Hello Nicolas you are 15 years old
+
+---
+
+#2.5 If, else, and, or
+true && true = true;
+false && true = false;
+true && false = false;
+false && false = false;
+
+true || true = true;
+false || true = true;
+true || false = true;
+false || false = false;
+
+#2.6 DOM - If else - Function practice
