@@ -1,20 +1,8 @@
-const calculator = {
-  plus: function(a, b) {
-    return a + b;
-  },
-  div: function(a, b) {
-    return a / b;
-  },
-  multi: function(a, b) {
-    return a * b;
-  }
-};
+const title = document.getElementById("title");
+title.innerHTML = "Hi From JS";
+console.log(title);
 
-const plus = calculator.plus(5, 5);
-const div = calculator.div(5, 5);
-const multi = calculator.multi(4, 4);
-
-console.log(plus, div, multi);
+console.log(document);
 
 //1.create variable.
 //2.Initialize variable.
@@ -49,3 +37,24 @@ console.log(plus, div, multi);
 
 //const dayOfWeek = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 //console.log(dayOfWeek);
+
+/*#2.1.1 More Function Fun */
+/*
+const calculator = {
+  plus: function(a, b) {
+    return a + b;
+  },
+  div: function(a, b) {
+    return a / b;
+  },
+  multi: function(a, b) {
+    return a * b;
+  }
+};
+
+const plus = calculator.plus(5, 5);
+const div = calculator.div(5, 5);
+const multi = calculator.multi(4, 4);
+
+console.log(plus, div, multi);
+*/
