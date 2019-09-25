@@ -54,3 +54,13 @@ true || false = true;
 false || false = false;
 
 #2.6 DOM - If else - Function practice
+
+#2.7 DOM
+classList는 메서드를 가짐 mdn문서 참고할것..
+classList.add
+classList.remove
+
+contains(String)
+
+toggle(String[,focus])
+is better than classList.contains
