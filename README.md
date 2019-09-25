@@ -12,3 +12,30 @@ js 파일은 body 아래에 둘것.
 
 #1.10
 DB에서 가져온 리스트 데이터 => Array
+
+2.1.1 More Function Fun
+using backtick(``)
+
+function sayHello(name, age) {
+console.log(`Hello ${name} you are ${age} years old`);
+}
+const greetNicolas = sayHello("Nicolas", 15);
+
+console.log(greetNicolas);
+
+result ::
+Hello Nicolas you are 15 years old
+undefined
+
+---
+
+function sayHello(name , age){
+return `Hello ${name} you are ${age} years old`;
+}
+
+const greetNicolas = sayHello("Nicolas", 15);
+
+console.log(greetNicolas);
+
+result ::
+Hello Nicolas you are 15 years old
