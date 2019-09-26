@@ -122,6 +122,8 @@ sayHi 함수가 3초바다 한번씩 실행됨.
 
 1. todo.js
 
+---
+
 ## #3.6 Making a To Do List part Two
 
 1. to do 저장. 배열로 저장. 어디에? localStorage.
@@ -131,3 +133,16 @@ sayHi 함수가 3초바다 한번씩 실행됨.
    여기서 나오는게
    **JSON.stringify**
    자바스크립트 object를 String으로 변환!.
+
+---
+
+## #3.7 Making a To Do List part Three
+
+1. localStorage에 데이터를 지우고 저장해야함.
+2. **.target**
+   (event.target)
+3. removeChild()
+4. forEach
+5. filter()
+   filtersms array의 모든 아이템을 통해 함수를 실행하고.
+   true인 아이템만 가지고 새로운 array를 만듬.
