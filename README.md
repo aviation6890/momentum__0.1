@@ -156,3 +156,10 @@ sayHi 함수가 3초바다 한번씩 실행됨.
    Math.random()
    Math.ceil() : 올림.
    Math.floor() : 내림.
+
+---
+
+## #3.9 Getting the Weather part One (Geolocation)
+
+1. Use it **navigator**
+2. navigator.geoloaction
