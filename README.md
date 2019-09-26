@@ -149,3 +149,10 @@ sayHi 함수가 3초바다 한번씩 실행됨.
    이건 동영상 한번더 시청해야할거 같음. ㅠㅠ
 
 ---
+
+## #3.8 Image Background
+
+1. Math
+   Math.random()
+   Math.ceil() : 올림.
+   Math.floor() : 내림.
