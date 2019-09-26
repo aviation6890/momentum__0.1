@@ -163,3 +163,11 @@ sayHi 함수가 3초바다 한번씩 실행됨.
 
 1. Use it **navigator**
 2. navigator.geoloaction
+
+---
+
+## #3.10 Getting the Weather part Two (API)
+
+1. fetch
+2.
+3.
