@@ -119,3 +119,15 @@ sayHi 함수가 3초바다 한번씩 실행됨.
 ---
 
 ## #3.5 Making a To Do List part One
+
+1. todo.js
+
+## #3.6 Making a To Do List part Two
+
+1. to do 저장. 배열로 저장. 어디에? localStorage.
+2. 자바스크립의 데이터를 localStroage에 넣을수 없음.
+   **문자열(String)**로 넣어야하는데...
+   즉 오브젝트 형태를 String으로 변환해서 넣어야함.
+   여기서 나오는게
+   **JSON.stringify**
+   자바스크립트 object를 String으로 변환!.
